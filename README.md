@@ -1,7 +1,5 @@
 # Git Quick Guide (Step by Step)
-
 ## Basic Git workflow
-
 ### Step 1: Create a new local repository
 
 `mkdir hello-world`
@@ -35,8 +33,7 @@ Go to this page [New repository](https://github.com/new)
 `git push -u origin main`
 
 
-## Add a new branch to the local and remote repository
-
+## Add a new branch
 ### Step 1: Create a new branch
 
 `git checkout -b new-branch`
@@ -51,7 +48,6 @@ Go to this page [New repository](https://github.com/new)
 
 
 ## Checkout an existing remote branch
-
 ### Step 1: Checkout and track the existing branch
 
 `git checkout —-track origin/existing-branch`
@@ -59,3 +55,27 @@ Go to this page [New repository](https://github.com/new)
 ### Step 2: Check tracking branches
 
 `git branch -vv`
+
+
+## Merge changes into the main branch
+### Step 1: Switch to main branch
+
+`git checkout main`
+
+`git branch`
+
+### Step 2: Compare changes from new-branch
+
+`git diff main new-branch`
+
+### Step 3: Merge
+
+`git merge new-branch`
+
+`git log`
+
+### Step 4: Update remote
+
+`git push`
+
+`git status`
