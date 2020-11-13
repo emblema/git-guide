@@ -72,10 +72,14 @@ Go to this page [New repository](https://github.com/new)
 
 `git merge new-branch`
 
-`git log`
+`git show`
 
 ### Step 4: Update remote
 
 `git push`
 
 `git status`
+
+### Step 5: Delete branch
+
+`git branch -d new-branch`
