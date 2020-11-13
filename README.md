@@ -1,4 +1,5 @@
 # Git Quick Guide (Step by Step)
+
 ## Basic Git workflow
 ### Step 1: Create a new local repository
 
@@ -83,3 +84,29 @@ Go to this page [New repository](https://github.com/new)
 ### Step 5: Delete branch
 
 `git branch -d new-branch`
+
+
+## Review history
+### Step 1: View commit history
+
+`git log --oneline`
+
+### Step 2: View changes in last commit
+
+`git show`
+
+### Step 3: View changes in past commits
+
+`git show HEAD~1`
+
+### Step 4: View a file in a commit
+
+`git show HEAD~1:file.txt`
+
+### Step 5: View all the files and directories in a commit
+
+`git ls-tree HEAD~1`
+
+### Step 6: View a file by its unique identifier
+
+`git show <uid>`
