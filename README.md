@@ -64,7 +64,7 @@ Go to this page [New repository](https://github.com/new)
 
 `git branch`
 
-### Step 2: Compare changes from new-branch
+### Step 2: Review changes
 
 `git diff main new-branch`
 
